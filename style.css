@@ -5,104 +5,72 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+ul {
+    list-style-type: none;
 }
 
-.top {
-    background: #1F2937;
-    flex-wrap: nowrap;
+.screen {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    margin: 0 10%;
+    padding: 8px;
+    box-shadow: 1px 1px 2px;
 }
-
-.buttons {
-    justify-content: flex-start;
-}
-
-button {
-    padding: 4px 16px;
-    border-radius: 8px;
-    border: none;
-    color: white;
-    background-color: #3882F6;
-}
-
-.hero {
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.left-logo {
-    color: white;
-    font-size: 24px;
-}
-
+  
 ul {
     display: flex;
-    list-style: none;
     margin: 0;
     padding: 0;
     gap: 16px;
+    box-shadow: 1px 1px 2px;
 }
-
-
-/* .hero {
-    background: #1F2937;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
-}
-
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
-    padding-bottom: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-ul {
-    color: #E5E7EB;
-    list-style-type: none;
-    font-size: 18px;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    flex-wrap: wrap;
-}
-
-ul {
-    display: flex;
-    margin: 0 0 8px 0;
-    padding: 0;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-
-.left,
-.right {
+  
+.header-logo, .links {
     display: flex;
     align-items: center;
     gap: 16px;
-} */
+    white-space: nowrap;
+    box-shadow: 1px 1px 2px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.links {
+    font-size: 18px;
+}
+
+.rectantangle-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-right {
+    display: flex;
+    max-height: 30%;
+    max-width: 30%;
+}
+
+.hero-title {
+    font-size: 48px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+}
