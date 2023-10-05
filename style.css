@@ -1,5 +1,5 @@
 body {
-    margin: 0 10%;
+    margin: 0;
     background: #1F2937;
     overflow: hidden;
     font-family: Roboto, sans-serif;
@@ -24,6 +24,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    margin: 0 10%;
 }
   
 ul {
@@ -56,6 +57,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    margin: 0 10%;
 }
 
 .hero-left {
@@ -94,4 +96,25 @@ button {
     border: none;
     border-radius: 5px;
     padding: 5px 25px;
+}
+
+.rectangle-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    min-width: 100%;
+    padding: 25px 0 50px 0;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.middle-square-text {
+    display: flex;
+    flex-direction: row;
 }
