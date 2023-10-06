@@ -103,7 +103,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     background-color: white;
     min-width: 100%;
     padding: 50px 0 100px 0;
@@ -112,6 +112,7 @@ img {
 .middle-title {
     font-size: 36px;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .middle-square-text {
@@ -120,7 +121,7 @@ img {
     justify-content: space-around;
     margin: 0 100%;
     font-size: 16px;
-    gap: 90px;
+    gap: 145px;
     text-align-last: center;
 }
 
